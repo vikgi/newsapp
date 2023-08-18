@@ -79,23 +79,7 @@ handleNextClick = async () => {
 }
 
 
-// fetchMoreData = async (page) => {
 
-// let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apikey}&page=${page}&pagesize=${this.props.pagesize}`;
-//   this.setState({loading:true});
-//   let data = await fetch(url);
-//   let parsedData = await data.json();
-//   this.setState({
-//     articles: this.state.articles.concat(parsedData.articles),
-//     totalResults: parsedData.totalResults,      
-//     loading:false,
-//     page:page
-    
-//   });
-
-
-
-//   };
 
 
   render() {
@@ -106,12 +90,7 @@ handleNextClick = async () => {
 
 
 
-        {/* <InfiniteScroll
-          dataLength={this.state.articles.length}
-          next={this.fetchMoreData(this.state.page+1)}
-          hasMore={this.state.articles.length !== this.state.totalResults}
-          loader={<Spinner/>}
-        > */}
+        
           
         
 
@@ -127,7 +106,7 @@ handleNextClick = async () => {
               
           </div>
 
-          {/* </InfiniteScroll> */}
+
 
           <div className="container d-flex justify-content-between my-4">
             <button disabled={this.state.page === 1 }type="button" className="btn btn-dark" onClick = {this.handlePrevClick}> &larr; previous</button>
