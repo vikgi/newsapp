@@ -34,74 +34,7 @@ componentDidMount() {
   render() {
     return (
       <div>
-      {/* <Router>
-      <NavBar/>
-      <Routes>
-            <Route path="/"><News pagesize={this.pagesize} country = "in" category="general"/></Route>
-            <Route path="/business"><News pagesize={this.pagesize} country = "in" category="business"/></Route>
-            <Route path="/entertainment"><News pagesize={this.pagesize} country = "in" category="entertainment"/></Route>
-            <Route path="/health"><News pagesize={this.pagesize} country = "in" category="health"/></Route>
-            <Route path="/science"><News pagesize={this.pagesize} country = "in" category="science"/></Route>
-            <Route path="/sports"><News pagesize={this.pagesize} country = "in" category="sports"/></Route>
-            <Route path="/technology"><News pagesize={this.pagesize} country = "in" category="technology"/></Route>
-            
-        </Routes>
-      </Router> */}
-
-        {/* <Router>
-              <NavBar />
-              <Routes>
-                    <Route path="/">
-                      <News pagesize={this.pagesize} country="in" category="general" />
-                    </Route>
-                    <Route path="/business">
-                      <News pagesize={this.pagesize} country="in" category="business" />
-                    </Route>
-                    <Route path="/entertainment">
-                      <News pagesize={this.pagesize} country="in" category="entertainment" />
-                    </Route>
-                    <Route path="/health">
-                      <News pagesize={this.pagesize} country="in" category="health" />
-                    </Route>
-                    <Route path="/science">
-                      <News pagesize={this.pagesize} country="in" category="science" />
-                    </Route>
-                    <Route path="/sports">
-                      <News pagesize={this.pagesize} country="in" category="sports" />
-                    </Route>
-                    <Route path="/technology">
-                      <News pagesize={this.pagesize} country="in" category="technology" />
-                    </Route>
-              </Routes>
-        </Router> */}
-
-
-
-
-        {/* <Router>
-              <NavBar />
-              <Route exact path="/">
-                <News pagesize={this.pagesize} country="in" category="general" />
-              </Route>
-              <Route path="/business">
-                <News pagesize={this.pagesize} country="in" category="business" />
-              </Route>
-              <Route path="/entertainment">
-                <News pagesize={this.pagesize} country="in" category="entertainment" />
-              </Route>
-              <Route path="/health">
-                <News pagesize={this.pagesize} country="in" category="health" />
-              </Route>
-              <Route path="/science">
-                <News pagesize={this.pagesize} country="in" category="science" />
-              </Route>
-              <Route path="/sports">
-                <News pagesize={this.pagesize} country="in" category="sports" />
-              </Route>
-              <Route path="/technology">
-                <News pagesize={this.pagesize} country="in" category="technology" />
-              </Route>
-        </Router> */}
+      
 
 
 
